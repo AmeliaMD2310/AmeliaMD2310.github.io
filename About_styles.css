@@ -1,0 +1,122 @@
+/* 
+ Author: Amelia MacDonald (W0467922)
+ Date: December 12, 2024
+ Class: WebD100
+ Assignment: Final Project
+*/
+
+/* Main Content Styles */
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #74553ed6; 
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    border: 2px solid #dee2e6; 
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 50px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #343a40; 
+}
+
+section h1 {
+    text-align: center;
+    color: #495057; 
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif; 
+    letter-spacing: 1px;
+    font-size: 2rem;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.Intelligence-section {
+    position: relative;
+    overflow: hidden; 
+    margin-bottom: 50px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #343a40;
+}
+
+/* Image and Text Layout */
+.Temperament img {
+    float: left;
+    margin-right: 20px;
+}
+
+.Intelligence img {
+    float: right;
+    margin-left: 20px;
+    max-width: 300px; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border: 3px solid #dee2e6;
+}
+
+.Personality {
+    overflow: hidden; 
+    position: relative; 
+    margin-bottom: 50px; 
+    padding: 20px; 
+    background: #f8f9fa; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #343a40; 
+}
+
+.Personality img {
+    float: left; 
+    margin-right: 20px; 
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border: 3px solid #dee2e6; 
+}
+
+div img:hover {
+    transform: scale(1.05); 
+}
+
+/* Paragraph Styles */
+section p {
+    text-align: justify;
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #495057;
+    line-height: 1.8;
+    word-spacing: 2px;
+}
+
+/*Figure Caption Styling*/
+.Intelligence figcaption {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 5px;
+    text-align: right; 
+
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 0.5px;
+}
+
+
+
+
+
+

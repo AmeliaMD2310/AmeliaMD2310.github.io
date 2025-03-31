@@ -1,0 +1,77 @@
+/* 
+ Author: Amelia MacDonald (W0467922)
+ Date: December 12, 2024
+ Class: WebD100
+ Assignment: Final Project
+*/
+
+/* Main Container Styling */
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #74553ed6;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border: 2px solid #dee2e6;
+    overflow: hidden;
+    display: flex; 
+    gap: 20px; 
+}
+
+/* Column Styling */
+.history-section, .origin-section, .modern-section {
+    flex: 1; 
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #343a40;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+
+/* Heading Styling */
+.history-section h1, .origin-section h1, .modern-section h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #495057;
+}
+
+/* Block Styling */
+.history-block, .origin-block, .modern-block {
+    background-color: #ffffff;
+    color: #495057;
+    padding: 15px;
+    font-size: 16px;
+    text-align: justify;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Image Styling */
+.history-block img, .origin-block img, .modern-block img {
+    width: 100%; 
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+div img:hover {
+    transform: scale(1.05);
+}
+
+/* Paragraph Styling */
+.history-block p, .origin-block p, .modern-block p {
+    margin: 10px 0;
+}
+
+/*Caption Styling*/
+figcaption {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 0.5px;
+}
